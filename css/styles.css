@@ -1,6 +1,65 @@
+
+:root {
+    --color-primary-green: #819B57;
+    --color-primary-light: #faf4ea;
+    --color-primary-dark: #31261a;
+    --color-secondary-green: #465929;
+    --color-secondary-light: #cfcfbc;
+    --color-secondary-dark: #a18268;
+}
+
+/* base styles */
+ul {
+list-style-type: none;
+}
+/* button styles */
 .button {
-    color: #faf4ea;
-    background-color: #819B57;
-    border: 2px solid #819B57;
+    color: var(--color-primary-light);
+    background-color: var(--color-primary-green);
+    border: 2px solid var(--color-primary-green);
     border-radius: 8px;
+    cursor: pointer;
 } 
+
+.button.hover {
+    color: var(--color-secondary-green);
+    background-color: transparent; 
+}
+/* links styles */
+.link {
+    color: var(--color-primary-light);
+
+}
+
+.link.hover {
+    color: var(--color-primary-green);
+}
+/* hero-section styles */
+.hero-title {
+    color: var(--color-primary-light);
+}
+
+.hero-title .accent {
+    color: var(--color-primary-green);
+}
+/* dvantages styles */
+.advantages-list {
+    color: var(--color-primary-light);
+    background-color: var(--color-primary-green);
+}
+
+.section-title {
+    color: var(--color-primary-dark);
+}
+
+/*
+.button.focus {
+    color: #465929;
+    background-color: green; 
+}
+
+.button.activ {
+    color: #465929;
+    background-color: transparent; 
+}
+*/

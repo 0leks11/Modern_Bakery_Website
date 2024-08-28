@@ -69,13 +69,13 @@ list-style-type: none;
 /*traditions selection*/
 .traditsii-txt .brand {
     text-transform: uppercase;
-    color: var(--color-secondary-green);
+    color: var(--color-primary-green);
     font-weight: 600;
 }
 
 .traditsii-txt .brand-uppercase {
     text-transform: uppercase;
-    color: var(--color-secondary-green);
+    color: var(--color-primary-green);
     font-weight: 600;
 }
 /*

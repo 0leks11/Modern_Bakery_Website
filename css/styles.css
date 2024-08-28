@@ -29,7 +29,7 @@ list-style-type: none;
     cursor: pointer;
 } 
 
-.button.hover {
+.button:hover {
     color: var(--color-secondary-green);
     background-color: transparent; 
 }
@@ -39,7 +39,7 @@ list-style-type: none;
     text-decoration: none;
 }
 
-.link.hover {
+.link:hover {
     color: var(--color-primary-green);
     font-weight: 600;
 }

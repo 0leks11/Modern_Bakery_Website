@@ -99,6 +99,29 @@ list-style-type: none;
     font-weight: 600;
 }
 
+/* formats section */
+.section-item {
+    font-size: 24px;
+    font-weight: 600;
+}
+
+.section-txt {
+    font-size: 14px;
+    font-weight: 300;
+}
+
+/* footer section */
+.address-link {
+    font-size: 16px;
+    font-weight: 300;
+    color: var(--color-primary-light)
+}
+
+.danni {
+    font-size: 14px;
+    font-weight: 400;
+    color: var(--color-secondary-dark)
+}
 /*
 .button.focus {
     color: #465929;

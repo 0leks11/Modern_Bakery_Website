@@ -114,13 +114,17 @@ list-style-type: none;
 .address-link {
     font-size: 16px;
     font-weight: 300;
-    color: var(--color-primary-light)
+    color: var(--color-primary-light);
+}
+
+.address-link:hover {
+    color: var(--color-secondary-light);
 }
 
 .danni {
     font-size: 14px;
     font-weight: 400;
-    color: var(--color-secondary-dark)
+    color: var(--color-secondary-dark);
 }
 /*
 .button.focus {

@@ -147,7 +147,7 @@ list-style-type: none;
 }
 
 .section-title .accent{
-    color: var(--color-primary-dark);
+    color: var(--color-primary-green);
 }
 
 /*traditions selection*/
@@ -179,8 +179,7 @@ list-style-type: none;
 
 .kuhar-title {
     margin-bottom: 16px;
-    font-size: 40px;
-    font-weight: 600;
+
 }
 
 /* formats section */

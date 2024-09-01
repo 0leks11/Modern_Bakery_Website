@@ -158,7 +158,7 @@ list-style-type: none;
 }
 
 .traditions-section {
-    padding-top: 96px;
+    padding-top: 84px;
 }
 
 .traditions-title{
@@ -174,13 +174,13 @@ list-style-type: none;
 
 /* kuhary section */
 .kuhary-title {
-    font-size: 40px;
-    font-weight: 600;
     margin-bottom: 80px;
 }
 
 .kuhar-title {
     margin-bottom: 16px;
+    font-size: 40px;
+    font-weight: 600;
 }
 
 /* formats section */
@@ -189,12 +189,12 @@ list-style-type: none;
     margin-bottom: 80px;
 }
 
-.section-item {
+.format-item {
     font-size: 24px;
     font-weight: 600;
 }
 
-.section-txt {
+.format-txt {
     font-size: 14px;
     font-weight: 300;
 }

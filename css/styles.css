@@ -69,6 +69,15 @@ ul {
 list-style-type: none;
 }
 
+.visualy-hidden {
+    position: absolute;
+    left: -10000px;
+    top: auto;
+    width: 1px;
+    height: 1px;
+    overflow: hidden;
+}
+
 .section {
     padding: 48px 0;
 }
@@ -148,6 +157,15 @@ list-style-type: none;
     font-weight: 600;
 }
 
+.traditions-section {
+    padding-top: 96px;
+}
+
+.traditions-title{
+    margin-bottom: 42px;
+}
+
+
 .traditsii-txt .brand-uppercase {
     text-transform: uppercase;
     color: var(--color-primary-green);
@@ -158,9 +176,19 @@ list-style-type: none;
 .kuhary-title {
     font-size: 40px;
     font-weight: 600;
+    margin-bottom: 80px;
+}
+
+.kuhar-title {
+    margin-bottom: 16px;
 }
 
 /* formats section */
+
+.formats-title {
+    margin-bottom: 80px;
+}
+
 .section-item {
     font-size: 24px;
     font-weight: 600;
@@ -169,6 +197,12 @@ list-style-type: none;
 .section-txt {
     font-size: 14px;
     font-weight: 300;
+}
+
+/* cntacts section */
+
+.contacts-title {
+    margin-bottom: 16px;
 }
 
 /* footer section */
